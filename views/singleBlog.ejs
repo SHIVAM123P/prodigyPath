@@ -1,0 +1,31 @@
+<!-- <div class="blog">
+    <div class="row">
+      <div class="col-sm blog-post">
+        <h2 class="blog-title"><%= blog.title %></h2>
+        <p><%= blog.content %></p>
+        <p>Author: <%= blog.author %></p>
+        <p>Published on: <%= blog.date.toLocaleDateString() %></p>
+      </div>
+    </div>
+  </div> -->
+
+
+
+  <div id="blogsss" >
+    <h2 id="headingtwo" ><%= blog.title %></h2>
+    <img src="<%= blog.image %>"></img>
+    <p><%= blog.content %></p>
+    <p>Author: <%= blog.author %></p>
+    <p>Published on: <%= blog.date.toLocaleDateString() %></p>
+</div>
+
+<style>
+    #blogsss{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        margin-top: 480px;
+        margin-bottom: 100px;
+    }
+    
+</style>
